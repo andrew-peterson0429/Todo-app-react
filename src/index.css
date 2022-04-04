@@ -11,3 +11,85 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.content {
+  margin: 0 auto;
+  max-width: 500px;
+}
+
+.todo-card {
+  border: 2px solid black;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+table {
+  width: 100%;
+}
+
+td:first-child {
+  width: 100%;
+}
+
+td:last-child {
+  min-width: 100px;
+}
+
+th {
+  text-align: left;
+}
+
+tr:nth-child(even) {
+  background-color: #f0f0f0;
+}
+
+input {
+  padding: 5px;
+  border: 2px solid grey ;
+  border-radius: 5px;
+}
+
+button {
+  margin-left: 2px;
+  padding: 6px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.createBtn {
+  background-color: #0d0dc7;
+  color: #fff;
+}
+
+.editBtn {
+  background-color: #6d6d6d;
+  color: #fff;
+}
+
+.deleteBtn {
+  background-color: #990000;
+  color: #fff;
+}
+
+.saveBtn {
+  background-color: #004200;
+  color: #fff;
+}
+
+.cancelBtn {
+  background-color: #5c5c5c;
+  color: #fff;
+}
+
+.todo {
+  cursor: pointer;
+}
+
+.completed {
+  text-decoration: line-through;
+}
+
+.notCompleted {
+  text-decoration: none;
+}
